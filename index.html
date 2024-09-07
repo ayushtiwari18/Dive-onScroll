@@ -347,9 +347,11 @@
       loadImage(currentFrame); // Redraw current frame on resize
     });
 
+
+      preloadNearbyFrames(0); // Initial preload
     // Start the animation and preload the initial set of frames
     startAnimation();
-    preloadNearbyFrames(0); // Initial preload
+  
 
   </script>
 </body>
